@@ -438,6 +438,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  backface-visibility: hidden;
 }
 
 .pricing-card-heading {
@@ -545,6 +546,7 @@ html {
   align-items: center;
   transform: rotateY(180deg);
   border-radius: 1rem;
+  backface-visibility: hidden;
 }
 
 .pricing-card-back a {
